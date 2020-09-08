@@ -46,7 +46,7 @@ proc selectCurveEntities { } {
     -selectionmask $selectionMask selectionArray
 
   # return a flattened array of connectors, database curves and source curves
-  return [join [list $selectionArray(Connectors) $selectionArray(Databases) $selectionArray(Sources)]]
+  return [concat $selectionArray(Connectors) $selectionArray(Databases) $selectionArray(Sources)]
 }
 
 ## Get center points and create DB point

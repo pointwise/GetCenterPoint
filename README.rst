@@ -1,14 +1,12 @@
 GetCenterPoint
 ==============
-A Pointwise Glyph script which enables the user to create a db point at the center point location of a circular curve segment.
+A Pointwise Glyph script which creates database points at the center point location of a selection of circular curve segments.
 
 Usage
 ~~~~~
-The user must invoke the script to begin the selection process. Once invoked, the user will then be prompted to "Select a Circular Connector and/or DB Curve". The user can select either circular connectors, DB curves, or any combination thereof. Multiple entities can be selected.
+This script can only be run interactively.
 
-When the circular segment(s) are chosen, the user will select the "Done" button, and at this point the script will simultaneously render the center point for each selected segment in red and then terminate.
-
-If the user doesn't select a circular segment, there is no error printed and the script will terminate as normal without rendering a center point.
+The script prompts for selection of any curve type, including connectors, database curves or source curves. For each selected curve, a red-colored database point is created at the center location of each circular arc segment. All new points are added to a database entity group named "Centers".
 
 .. image:: https://raw.github.com/pointwise/GetCenterPoint/master/GetCenterPointExample.PNG
 
