@@ -10,7 +10,7 @@ When the circular segment(s) are chosen, the user will select the "Done" button,
 
 If the user doesn't select a circular segment, there is no error printed and the script will terminate as normal without rendering a center point.
 
-.. image:: https://raw.github.com/pointwise/GetCenterPoint/master/GetCenterPointExample.png
+.. image:: https://raw.github.com/pointwise/GetCenterPoint/master/GetCenterPointExample.PNG
 
 Disclaimer
 ~~~~~~~~~~
